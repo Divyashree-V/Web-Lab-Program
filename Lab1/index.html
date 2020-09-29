@@ -9,7 +9,15 @@
     </style>
     <script>
         function insert(val) {
-            document.getElementById('res').value=val;
+            document.getElementById('res').value += val;
+        }
+        function reset(){
+            document.getElementById('res').value = "";
+        }
+        function calculate(){
+            var exp=document.getElementById('res').value;
+            var output=eval(exp);
+            document.getElementById('res').value = output;
         }
     </script>
 </head>
@@ -18,7 +26,7 @@
 <table align="center" border="1">
     <tr>
         <td colspan="5">
-            <input id="res" type="text">
+            <input id="res" value="" type="text">
         </td>
     </tr>
     <tr>
@@ -69,12 +77,12 @@
         <button onclick="insert('0')">0</button>
     </td>
         <td>
-            <button onclick="insert('=')">=</button>
+            <button onclick="calculate()">=</button>
         </td>
     </tr>
     <tr>
         <td colspan="5">
-            <button onclick="insert('Clear')">CLEAR</button>
+            <button onclick="reset()">CLEAR</button>
         </td>
     </tr>
 </table>
