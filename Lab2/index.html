@@ -3,31 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script>
+        //alert("hello");
+        var low1=prompt("Enter an lower range");
+        var up1=prompt("Enter an upper range");
+        var con=confirm("Do you wan to see the table");
+        if(con) {
+            var square = 0;
+            var cube = 0;
+            var myTable = " <h1 style='text-align: center'> Problem to find Square and Cube</h1>\n"
+            myTable += "<table border='1' width='10%' align='center'><tr><td>No</td><td>Square</td><td>Cube</td></tr>";
+            for (var i = parseInt(low1); i <= parseInt(up1); i++) {
+                square = i * i;
+                cube = i * i * i;
+                myTable += "<tr><td>" + i + "</td><td>" + square + "</td><td>" + cube + "</td></tr>";
+            }
+            myTable += "</table>";
+            document.write(myTable);
+        }
+    </script>
 </head>
 <body>
-<table border="1" align="center" width="70%">
-    <tr>
-        <th>Column 1</th>
-        <th>Column 2</th>
-        <th>Column 3</th>
-    </tr>
-
-    <tr>
-        <th rowspan="2">Row 1 Cell 2</th>
-        <td>Row 1 cell 2</td>
-        <td>Row 1 cell 3</td>
-
-    </tr>
-    <tr>
-        <td>Row 2 cell 2</td>
-        <td>Row 2 cell 3</td>
-    </tr>
-    <tr>
-        <td colspan="5">Row 3 Cell 1</td>
-    </tr>
-
-
-</table>
-
 </body>
 </html>
