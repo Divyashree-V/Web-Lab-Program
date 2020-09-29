@@ -6,6 +6,16 @@
     <style>
         h1{text-align: center}
         button{width: 100%}
+        /*.row1{background-color: deeppink}*/
+        /*.row2{background-color: aquamarine}*/
+        /*.row3{background-color: mediumpurple}*/
+        /*.row4{background-color: coral}*/
+        .col1{background-color: blue}
+        .col2{background-color: palevioletred}
+        .col3{background-color: brown}
+        .col4{background-color: forestgreen}
+        .col5{background-color: chartreuse}
+        .col6{background-color: coral}
     </style>
     <script>
         function insert(val) {
@@ -19,6 +29,7 @@
             var output=eval(exp);
             document.getElementById('res').value = output;
         }
+
     </script>
 </head>
 <body>
@@ -29,60 +40,60 @@
             <input id="res" value="" type="text">
         </td>
     </tr>
-    <tr>
+    <tr >
         <td>
-            <button onclick="insert('7')">7</button>
+            <button class="col1" onclick="insert('7')">7</button>
         </td>
         <td>
-            <button onclick="insert('8')">8</button>
+            <button class="col2" onclick="insert('8')">8</button>
         </td>
         <td>
-            <button onclick="insert('9')">9</button>
+            <button class="col3" onclick="insert('9')">9</button>
         </td>
         <<td>
-        <button onclick="insert('+')">+</button>
+        <button class="col4" onclick="insert('+')">+</button>
     </td>
         <td>
-            <button onclick="insert('-')">-</button>
+            <button class="col5" onclick="insert('-')">-</button>
         </td>
     </tr>
     <tr>
         <td>
-            <button onclick="insert('4')">4</button>
+            <button class="col1" onclick="insert('4')">4</button>
         </td>
         <td>
-            <button onclick="insert('5')">5</button>
+            <button class="col2" onclick="insert('5')">5</button>
         </td>
         <td>
-            <button onclick="insert('6')">6</button>
+            <button class="col3" onclick="insert('6')">6</button>
         </td>
         <<td>
-        <button onclick="insert('*')">*</button>
+        <button class="col4" onclick="insert('*')">*</button>
     </td>
         <td>
-            <button onclick="insert('/')">/</button>
+            <button class="col5" onclick="insert('/')">/</button>
         </td>
     </tr>
     <tr>
         <td>
-            <button onclick="insert('1')">1</button>
+            <button class="col1" onclick="insert('1')">1</button>
         </td>
         <td>
-            <button onclick="insert('2')">2</button>
+            <button class="col2" onclick="insert('2')">2</button>
         </td>
         <td>
-            <button onclick="insert('3')">3</button>
+            <button class="col3" onclick="insert('3')">3</button>
         </td>
         <<td>
-        <button onclick="insert('0')">0</button>
+        <button class="col4" onclick="insert('0')">0</button>
     </td>
         <td>
-            <button onclick="calculate()">=</button>
+            <button class="col5" onclick="calculate()">=</button>
         </td>
     </tr>
     <tr>
         <td colspan="5">
-            <button onclick="reset()">CLEAR</button>
+            <button class="col6" onclick="reset()">CLEAR</button>
         </td>
     </tr>
 </table>
