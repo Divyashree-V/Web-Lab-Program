@@ -29,7 +29,11 @@
             var output=eval(exp);
             document.getElementById('res').value = output;
         }
-
+        function sqr(){
+            var exp=document.getElementById('res').value;
+            var output=eval(exp)*eval(exp);
+            document.getElementById('res').value = output;
+        }
     </script>
 </head>
 <body>
@@ -91,6 +95,12 @@
             <button class="col5" onclick="calculate()">=</button>
         </td>
     </tr>
+    <tr>
+        <td colspan="5">
+            <button class="col2" onclick="sqr()">SQUARE</button>
+        </td>
+    </tr>
+
     <tr>
         <td colspan="5">
             <button class="col6" onclick="reset()">CLEAR</button>
