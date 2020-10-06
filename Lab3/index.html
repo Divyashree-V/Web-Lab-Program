@@ -4,23 +4,35 @@
     <meta charset="UTF-8">
     <title>Program 3</title>
     <script>
+        var fs=5;
         function textAnimate(opt) {
-            var fs=5; //fs is a font size
-            var timer=setInterval(animate, 100)
-            function animate(){
-                fs+=5;
-                document.getElementById('text').style.fontSize=fs+'pt';
-                if(fs==50) //controlling growing with timer
-                    clearInterval(timer)
+            if(opt == 'i'){
+                var timer=setInterval(animate, 100)
+                function animate() {
+                    fs += 5;
+                    document.getElementById('text').style.fontSize = fs + 'pt';
+                    if (fs == 50) //controlling growing with timer
+                        clearInterval(timer);
+                }
             }
+            if(opt == 'd') {
+                var timer = setInterval(animate, 100)
 
+                function animate() {
+                    fs -= 5;
+                    document.getElementById('text').style.fontSize = fs + 'pt';
+                    if (fs == 5) //controlling growing with timer
+                        clearInterval(timer);
+                }
+            }
         }
     </script>
 </head>
 <body>
     <h1> Program to Increase / Decrease font size</h1>
     <p id="text">TEXT GROWING</p>
-    <button onclick="textAnimate()">Increase</button>
+    <button onclick="textAnimate('i')">Increase</button>
+    <button onclick="textAnimate('d')">Increase</button>
 
 </body>
 </html>
