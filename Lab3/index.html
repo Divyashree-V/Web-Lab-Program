@@ -3,8 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Program 3</title>
+    <script>
+        function textAnimate(opt) {
+            var fs=5; //fs is a font size
+            setInterval(animate, 100)
+            function animate(){
+                fs+=5;
+                document.getElementById('text').style.fontSize=fs+'pt';
+            }
+
+        }
+    </script>
 </head>
 <body>
     <h1> Program to Increase / Decrease font size</h1>
+    <p id="text">TEXT GROWING</p>
+    <button onclick="textAnimate()">Increase</button>
+
 </body>
 </html>
