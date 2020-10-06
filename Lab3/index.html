@@ -6,10 +6,12 @@
     <script>
         function textAnimate(opt) {
             var fs=5; //fs is a font size
-            setInterval(animate, 100)
+            var timer=setInterval(animate, 100)
             function animate(){
                 fs+=5;
                 document.getElementById('text').style.fontSize=fs+'pt';
+                if(fs==50) //controlling growing with timer
+                    clearInterval(timer)
             }
 
         }
