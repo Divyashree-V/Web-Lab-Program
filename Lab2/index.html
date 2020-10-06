@@ -1,28 +1,27 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <script>
-        //alert("hello");
-        var low1=prompt("Enter an lower range");
-        var up1=prompt("Enter an upper range");
-        var con=confirm("Do you wan to see the table");
-        if(con) {
-            var square = 0;
-            var cube = 0;
-            var myTable = " <h1 style='text-align: center'> Problem to find Square and Cube</h1>\n"
-            myTable += "<table border='1' width='10%' align='center'><tr><td>No</td><td>Square</td><td>Cube</td></tr>";
-            for (var i = parseInt(low1); i <= parseInt(up1); i++) {
-                square = i * i;
-                cube = i * i * i;
-                myTable += "<tr><td>" + i + "</td><td>" + square + "</td><td>" + cube + "</td></tr>";
-            }
-            myTable += "</table>";
-            document.write(myTable);
-        }
-    </script>
 </head>
 <body>
+<script>
+    // alert("hello");
+
+    var num= prompt("Enter an number");
+    var square = 0;
+    var cube = 0;
+    var myTable = "<h1 style='text-align: center'>Prog to find squares and cubes</h1>";
+    myTable += "<table border='1' align='center'><tr><th>No</th><th>Square</th><th>Cube</th></tr>";
+    for (var i = 0; i <= num; i++) {
+        square = i * i;
+        cube = i * i * i;
+        myTable += "<tr><td>" + i + "</td><td>" + square + "</td><td>" + cube + "</td></tr>";
+    }
+    myTable += "</table>";
+    document.write(myTable);
+
+</script>
 </body>
 </html>
