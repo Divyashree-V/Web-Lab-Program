@@ -3,23 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>Program 3</title>
+    <style>
+        body{
+            text-align: center;
+        }
+    </style>
     <script>
         var fs=5;
         function textAnimate() {
+            document.getElementById('text').innerText="";
             var timer=setInterval(animate, 100);
             var state="growing";
                 function animate() {
                     if(state=="growing")
                     {
                         fs += 5;
-                        document.getElementById('text').style.color="red";
                         document.getElementById('text').style.fontSize = fs + 'pt';
+                        document.getElementById('text').style.color="red";
+                        document.getElementById('text').innerText="TEXT GROWING";
                     }
                     if(state=="shrinking")
                     {
                         fs -= 5;
-                        document.getElementById('text').style.color="blue";
                         document.getElementById('text').style.fontSize = fs + 'pt';
+                        document.getElementById('text').style.color="blue";
+                        document.getElementById('text').innerText="TEXT SHRINKING";
                     }
                     if(fs==50)
                         state="shrinking";
@@ -29,9 +37,8 @@
         }
     </script>
 </head>
-<body>
+<body onload="textAnimate()">
     <h1> Program to Increase / Decrease font size</h1>
-    <p id="text">TEXT GROWING</p>
-    <button onclick="textAnimate()">Animate</button>
+    <p id="text"></p>
 </body>
 </html>
