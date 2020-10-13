@@ -30,34 +30,24 @@
             }
             if(pos==0)
                 alert("Vowel not found");
-            }
+        }
         function findReverse(inp){
             var num=inp;
-            var digits=0;
-            var rem=0, res=0;
+            var rem=0, rev=0;
             while(num!=0)
             {
+                rem=num%10;
+                rev=rem+rev*10;
                 num=parseInt(num/10);
-                digits++;
             }
-            var temp=inp;
-            while(temp!=0)
-            {
-                rem=temp%10;
-                res=res+ Math.pow(rem,digits);
-                temp=parseInt(temp/10);
-            }
-            if(inp==res)
-                alert("Arm Strong Number");
-            else
-                alert("Not an Arm Strong Number");
+            alert("Original number: "+inp+"\n Reversed Number: "+rev);
         }
     </script>
 </head>
 <body>
-    <h1>Program to find Left most Vowel or Reverse Number</h1>
-    <input type="text" id="input" placeholder="Enter an input">
-    <button onclick="perform()" type="button">Submit</button>
+<h1>Program to find Left most Vowel or Reverse Number</h1>
+<input type="text" id="input" placeholder="Enter an input">
+<button onclick="perform()" type="button">Submit</button>
 
 </body>
 </html>
