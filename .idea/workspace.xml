@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b32b5af-79df-4d5f-b089-9d78b9b65ab2" name="Default Changelist" comment="initial">
-      <change afterPath="$PROJECT_DIR$/LoignForm/index.html" afterDir="false" />
+    <list default="true" id="9b32b5af-79df-4d5f-b089-9d78b9b65ab2" name="Default Changelist" comment="initial Login form">
+      <change afterPath="$PROJECT_DIR$/Lab4/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +46,7 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1ilZZZhYYYzMKi5QGN4QcjZo7Y2" />
   <component name="ProjectLevelVcsManager">
@@ -58,6 +60,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -76,7 +79,17 @@
       <option name="presentableId" value="Default" />
       <updated>1602484195677</updated>
       <workItem from="1602484197421" duration="3269000" />
+      <workItem from="1602489258212" duration="746000" />
+      <workItem from="1602577631593" duration="871000" />
     </task>
+    <task id="LOCAL-00001" summary="initial Login form">
+      <created>1602489343130</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602489343130</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,15 +105,20 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial Login form" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial Login form" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="9" key="SettingsEditor" timestamp="1602488036717">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1602488036717" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1602487777992">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1602489377062">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602487777992" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602489377062" />
   </component>
 </project>
