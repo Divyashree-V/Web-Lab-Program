@@ -3,12 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Program 4</title>
+    <script>
+        function perform() {
+            var abc=document.getElementById('input').value;
+            alert(abc);
+        }
+    </script>
 </head>
 <body>
     <h1>Program to find Left most Vowel or Reverse Number</h1>
-    <form action="main.html">
-        <input type="text" required pattern="[0-9]{10}" title="Invalid Mobile Number" placeholder="Enter an input">
-        <button type="submit">Submit</button>
-    </form>
+    <input type="text" id="input" placeholder="Enter an input">
+    <button onclick="perform()" type="button">Submit</button>
+
 </body>
 </html>
