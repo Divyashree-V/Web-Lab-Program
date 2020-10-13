@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b32b5af-79df-4d5f-b089-9d78b9b65ab2" name="Default Changelist" comment="LEFT MOST VOWEL">
+    <list default="true" id="9b32b5af-79df-4d5f-b089-9d78b9b65ab2" name="Default Changelist" comment="Right Most Vowel">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lab4/index.html" afterDir="false" />
     </list>
@@ -80,7 +80,7 @@
       <updated>1602484195677</updated>
       <workItem from="1602484197421" duration="3269000" />
       <workItem from="1602489258212" duration="746000" />
-      <workItem from="1602577631593" duration="4054000" />
+      <workItem from="1602577631593" duration="5622000" />
     </task>
     <task id="LOCAL-00001" summary="initial Login form">
       <created>1602489343130</created>
@@ -145,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602581627708</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Right Most Vowel">
+      <created>1602581755000</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1602581755000</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,16 +180,17 @@
     <MESSAGE value="find a vowel only" />
     <MESSAGE value="find a vowel with position" />
     <MESSAGE value="LEFT MOST VOWEL" />
-    <option name="LAST_COMMIT_MESSAGE" value="LEFT MOST VOWEL" />
+    <MESSAGE value="Right Most Vowel" />
+    <option name="LAST_COMMIT_MESSAGE" value="Right Most Vowel" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="9" key="SettingsEditor" timestamp="1602488036717">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1602488036717" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1602581725411">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1602581758362">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602581725411" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602581758362" />
   </component>
 </project>
