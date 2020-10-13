@@ -16,11 +16,14 @@
             }
         }
         function findVowel(inp){
+            var pos=0;
+            inp=inp.toLowerCase();
             for(var i=0;i<inp.length;i++)
             {
                 if(inp[i]=='a'||inp[i]=='e'||inp[i]=='i'||inp[i]=='o'||inp[i]=='u')
                 {
-                    alert("Vowel Found");
+                    pos=i+1;
+                    alert("Vowel Found in position: "+pos);
                     break;
                 }
             }
