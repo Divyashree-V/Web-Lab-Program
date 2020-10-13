@@ -5,15 +5,28 @@
     <title>Program 4</title>
     <script>
         function perform() {
-            var abc=document.getElementById('input').value;
-            if(isNaN(abc))
+            var inp=document.getElementById('input').value;
+            if(isNaN(inp))
             {
-                alert("String");
+                findVowel(inp);
             }
             else
             {
-                alert("Number");
+                findReverse(inp);
             }
+        }
+        function findVowel(inp){
+            for(var i=0;i<inp.length;i++)
+            {
+                if(inp[i]=='a'||inp[i]=='e'||inp[i]=='i'||inp[i]=='o'||inp[i]=='u')
+                {
+                    alert("Vowel Found");
+                    break;
+                }
+            }
+        }
+        function findReverse(inp){
+
         }
     </script>
 </head>

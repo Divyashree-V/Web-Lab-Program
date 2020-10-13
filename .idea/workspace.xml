@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b32b5af-79df-4d5f-b089-9d78b9b65ab2" name="Default Changelist" comment="Enter a string in the label and get alert">
+    <list default="true" id="9b32b5af-79df-4d5f-b089-9d78b9b65ab2" name="Default Changelist" comment="Deside its String or Number">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lab4/index.html" afterDir="false" />
     </list>
@@ -80,7 +80,7 @@
       <updated>1602484195677</updated>
       <workItem from="1602484197421" duration="3269000" />
       <workItem from="1602489258212" duration="746000" />
-      <workItem from="1602577631593" duration="2479000" />
+      <workItem from="1602577631593" duration="3388000" />
     </task>
     <task id="LOCAL-00001" summary="initial Login form">
       <created>1602489343130</created>
@@ -117,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602580059579</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Deside its String or Number">
+      <created>1602580195439</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602580195439</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,16 +148,17 @@
     <MESSAGE value="Validation text box(10digit mbl num must)" />
     <MESSAGE value="Validation action with another html file" />
     <MESSAGE value="Enter a string in the label and get alert" />
-    <option name="LAST_COMMIT_MESSAGE" value="Enter a string in the label and get alert" />
+    <MESSAGE value="Deside its String or Number" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deside its String or Number" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="9" key="SettingsEditor" timestamp="1602488036717">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1602488036717" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1602580067371">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1602580199595">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602580067371" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602580199595" />
   </component>
 </project>
