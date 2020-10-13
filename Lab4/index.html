@@ -33,14 +33,24 @@
             }
         function findReverse(inp){
             var num=inp;
-            var rem=0, rev=0;
+            var digits=0;
+            var rem=0, res=0;
             while(num!=0)
             {
-                rem=num%10;
-                rev=rem+rev*10;
                 num=parseInt(num/10);
+                digits++;
             }
-            alert("Original number: "+inp+"\n Reversed Number: "+rev);
+            var temp=inp;
+            while(temp!=0)
+            {
+                rem=temp%10;
+                res=res+ Math.pow(rem,digits);
+                temp=parseInt(temp/10);
+            }
+            if(inp==res)
+                alert("Arm Strong Number");
+            else
+                alert("Not an Arm Strong Number");
         }
     </script>
 </head>
