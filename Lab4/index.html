@@ -6,7 +6,14 @@
     <script>
         function perform() {
             var abc=document.getElementById('input').value;
-            alert(abc);
+            if(isNaN(abc))
+            {
+                alert("String");
+            }
+            else
+            {
+                alert("Number");
+            }
         }
     </script>
 </head>
