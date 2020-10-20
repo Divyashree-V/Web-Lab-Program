@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <title>Program 4</title>
     <script>
-        function perform() {
+        function perform()
+        {
             var inp=document.getElementById('input').value;
             if(isNaN(inp))
             {
@@ -15,7 +16,8 @@
                 findReverse(inp);
             }
         }
-        function findVowel(inp){
+        function findVowel(inp)
+        {
             var pos=0;
             inp=inp.toLowerCase();
             for(var i=0;i<inp.length;i++)
@@ -25,13 +27,13 @@
                     pos=i+1;
                     alert("Position of Left Most Vowel in the string : "+pos);
                     break;
-
                 }
             }
             if(pos==0)
                 alert("Vowel not found");
         }
-        function findReverse(inp){
+        function findReverse(inp)
+        {
             var num=inp;
             var rem=0, rev=0;
             while(num!=0)
@@ -45,9 +47,8 @@
     </script>
 </head>
 <body>
-<h1>Program to find Left most Vowel or Reverse Number</h1>
-<input type="text" id="input" placeholder="Enter an input">
-<button onclick="perform()" type="button">Submit</button>
-
+    <h1>Program to find Left most Vowel or Reverse Number</h1>
+    <input type="text" id="input" placeholder="Enter an input">
+    <button onclick="perform()" type="button">Submit</button>
 </body>
 </html>

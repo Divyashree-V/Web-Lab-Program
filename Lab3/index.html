@@ -15,9 +15,6 @@
             var timer=setInterval(animate, 100);
             var state="growing";
             //document.getElementById('text').style.position="fixed";
-
-
-
             function animate() {
                     if(state=="growing")
                     {
@@ -26,7 +23,7 @@
                         document.getElementById('text').style.color="red";
                         document.getElementById('text').innerText="TEXT GROWING";
                         //document.getElementById('text').style.position="fixed";
-                        document.getElementById('text').style.left=fs+"vw";
+                        document.getElementById('text').style.top=fs+"vh";
                     }
                     if(state=="shrinking")
                     {
@@ -35,7 +32,7 @@
                         document.getElementById('text').style.color="blue";
                         document.getElementById('text').innerText="TEXT SHRINKING";
                         //document.getElementById('text').style.position="fixed";
-                        document.getElementById('text').style.left=fs+"vw";
+                        document.getElementById('text').style.top=fs+"vh";
                     }
                     if(fs==100)
                         state="shrinking";
