@@ -1,0 +1,19 @@
+h1 {color:green;font-size:30px;}
+h2 {display:block;
+    color:red;
+    font-size:20px;
+    margin-left:20px}
+label {display:block;
+    color:blue;
+    font-size:20px;
+    margin-left:50px;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+USN,email,name,coll,branch,year, email {
+    color:red;
+    font-size:20px;
+    margin-left:30px}
+email{
+    text-transform: lowercase;
+}

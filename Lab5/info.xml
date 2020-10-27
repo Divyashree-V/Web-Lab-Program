@@ -5,7 +5,7 @@
         <!ELEMENT student_info (h1, h2+, label+)>
         <!ELEMENT h1 (#PCDATA)>
         <!ELEMENT h2 (#PCDATA)>
-        <!ELEMENT label (USN|name|coll|branch|year|email)*>
+        <!ELEMENT label (#PCDATA|USN|name|coll|branch|year|email)*>
         <!ELEMENT USN (#PCDATA)>
         <!ELEMENT name (#PCDATA)>
         <!ELEMENT coll (#PCDATA)>
@@ -16,25 +16,28 @@
 
 <student_info>
     <h1>Student Information</h1>
+
     <h2> Student 1 Information</h2>
-        <label><USN>403</USN></label>
-        <label><name>Divya</name></label>
-        <label><coll>SJEC</coll></label>
-        <label><branch>CSE</branch></label>
-        <label><year>2021</year></label>
-        <label><email>divya@gmail.com</email></label>
+        <label>USN : <USN>403</USN></label>
+        <label>Name : <name>Divya</name></label>
+        <label>College : <coll>SJEC</coll></label>
+        <label>Branch : <branch>CSE</branch></label>
+        <label>Year : <year>2021</year></label>
+        <label>Email : <email>divya@gmail.com</email></label>
+
     <h2> Student 2 Information</h2>
-        <label><USN>123</USN></label>
-        <label><name>Kavana</name></label>
-        <label><coll>SJEC</coll></label>
-        <label><branch>ECE</branch></label>
-        <label><year>2020</year></label>
-        <label><email>xyz@gmail.com</email></label>
+        <label>USN : <USN>123</USN></label>
+        <label>Name : <name>Kavana</name></label>
+        <label>College : <coll>SJEC</coll></label>
+        <label>Branch : <branch>ECE</branch></label>
+        <label>Year : <year>2020</year></label>
+        <label>Email : <email>xyz@gmail.com</email></label>
+
     <h2> Student 3 Information</h2>
-        <label><USN>333</USN></label>
-        <label><name>shashi</name></label>
-        <label><coll>SJEC</coll></label>
-        <label><branch>MECH</branch></label>
-        <label><year>2018</year></label>
-        <label><email>sd@gmail.com</email></label>
+        <label>USN : <USN>333</USN></label>
+        <label>Name : <name>shashi</name></label>
+        <label>College : <coll>SJEC</coll></label>
+        <label>Branch : <branch>MECH</branch></label>
+        <label>Year : <year>2018</year></label>
+        <label>Email : <email>sd@gmail.com</email></label>
 </student_info>
