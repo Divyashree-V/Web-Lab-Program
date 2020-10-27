@@ -15,7 +15,6 @@
         $count=fread($handle, 10);
         fclose($handle);
         $count=intval($count);
-        $count += 1;
         //Visitors working time
         date_default_timezone_set('Asia/Kolkata');
         $cur_time= date("H");
