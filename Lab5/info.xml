@@ -1,7 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sjec>
-    <dept>Computer Science</dept>
-    <courses>40</courses>
-    <sem>8</sem>
-    <hod>abc</hod>
-</sjec>
+<?xml-stylesheet type="text/css" href="prog5.css"?>
+<!--document type definition-->
+<!DOCTYPE student_info[
+        <!ELEMENT student_info (h1, h2+, label+)>
+        <!ELEMENT h1 (#PCDATA)>
+        <!ELEMENT h2 (#PCDATA)>
+        <!ELEMENT label (USN|name|coll|branch|year|email)*>
+        <!ELEMENT USN (#PCDATA)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT coll (#PCDATA)>
+        <!ELEMENT branch (#PCDATA)>
+        <!ELEMENT year (#PCDATA)>
+        <!ELEMENT email (#PCDATA)>
+        ]>
+
+<student_info>
+    <h1>Student Information</h1>
+    <h2> Student 1 Information</h2>
+        <label><USN>403</USN></label>
+        <label><name>Divya</name></label>
+        <label><coll>SJEC</coll></label>
+        <label><branch>CSE</branch></label>
+        <label><year>2021</year></label>
+        <label><email>divya@gmail.com</email></label>
+    <h2> Student 2 Information</h2>
+        <label><USN>123</USN></label>
+        <label><name>Kavana</name></label>
+        <label><coll>SJEC</coll></label>
+        <label><branch>ECE</branch></label>
+        <label><year>2020</year></label>
+        <label><email>xyz@gmail.com</email></label>
+    <h2> Student 3 Information</h2>
+        <label><USN>333</USN></label>
+        <label><name>shashi</name></label>
+        <label><coll>SJEC</coll></label>
+        <label><branch>MECH</branch></label>
+        <label><year>2018</year></label>
+        <label><email>sd@gmail.com</email></label>
+</student_info>
