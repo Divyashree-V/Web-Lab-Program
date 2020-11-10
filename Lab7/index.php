@@ -1,5 +1,6 @@
 <html>
 <head>
+    <meta http-equiv="refresh" content="1">
     <title>Digital Clock</title>
     <style>
         h1{
@@ -14,6 +15,5 @@
         date_default_timezone_set("Asia/Kolkata");
         echo "<h1>" .date("h:i:s A")."</h1>";
     ?>
-?>
 </body>
 </html>
