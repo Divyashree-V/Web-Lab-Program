@@ -9,7 +9,7 @@
     <form action="calculate.php" method="get">
         <div style="padding: 20px">
             <label for="first">First Operand : </label>
-            <input required id="first" type="text" name="fop">
+            <input required pattern="[0-9.]+" id="first" type="text" name="fop">
         </div>
         <div style="padding: 20px">
             <label >Choose an Operator : </label>
@@ -24,7 +24,7 @@
         </div>
         <div style="padding: 20px">
             <label for="second">Second Operand : </label>
-            <input required id="second" type="text" name="sop">
+            <input required pattern="[0-9.]+" id="second" type="text" name="sop">
         </div>
         <div style="padding: 20px">
             <button type="submit">Submit</button>
