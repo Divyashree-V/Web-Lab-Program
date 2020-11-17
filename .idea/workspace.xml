@@ -19,10 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b32b5af-79df-4d5f-b089-9d78b9b65ab2" name="Default Changelist" comment="Pattern (number/Digit)validation form">
+    <list default="true" id="9b32b5af-79df-4d5f-b089-9d78b9b65ab2" name="Default Changelist" comment="Progm8.a complete">
+      <change afterPath="$PROJECT_DIR$/Lab8b/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab8/calculate.php" beforeDir="false" afterPath="$PROJECT_DIR$/Lab8/calculate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab8/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lab8/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab8/calculate.php" beforeDir="false" afterPath="$PROJECT_DIR$/Lab8a/calculate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab8/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lab8a/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +91,7 @@
       <workItem from="1604996909033" duration="3832000" />
       <workItem from="1605585698628" duration="1210000" />
       <workItem from="1605597554714" duration="513000" />
-      <workItem from="1605598878369" duration="4934000" />
+      <workItem from="1605598878369" duration="6605000" />
     </task>
     <task id="LOCAL-00001" summary="initial Login form">
       <created>1602489343130</created>
@@ -295,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605605053388</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Progm8.a complete">
+      <created>1605607119113</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1605607119113</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,7 +322,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Deside its String or Number" />
     <MESSAGE value="find a vowel only" />
     <MESSAGE value="find a vowel with position" />
     <MESSAGE value="LEFT MOST VOWEL" />
@@ -339,20 +346,25 @@
     <MESSAGE value="Assigment problem" />
     <MESSAGE value="validation form" />
     <MESSAGE value="Pattern (number/Digit)validation form" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pattern (number/Digit)validation form" />
+    <MESSAGE value="Progm8.a complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Progm8.a complete" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="865" y="320" key="NewPhpFileDialog" timestamp="1605603764345">
+    <state x="274" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605607165623">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="865" y="320" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1605603764345" />
+    <state x="274" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1605607165623" />
+    <state x="865" y="320" key="NewPhpFileDialog" timestamp="1605607246254">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="865" y="320" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1605607246254" />
     <state x="184" y="9" key="SettingsEditor" timestamp="1602488036717">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1602488036717" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1605605054141">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1605607120318">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605605054141" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605607120318" />
   </component>
 </project>
