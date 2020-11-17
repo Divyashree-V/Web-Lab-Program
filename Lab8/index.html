@@ -6,10 +6,10 @@
 </head>
 <body>
     <h1>Simple Calculator</h1>
-    <form action="calculate.php" method="get">
+    <form action="calculate.php" method="POST">
         <div style="padding: 20px">
             <label for="first">First Operand : </label>
-            <input required pattern="[0-9.]+" id="first" type="text" name="fop">
+            <input required pattern="[0-9.]+" title="only numbers are allowed" id="first" type="text" name="op1">
         </div>
         <div style="padding: 20px">
             <label >Choose an Operator : </label>
@@ -24,10 +24,10 @@
         </div>
         <div style="padding: 20px">
             <label for="second">Second Operand : </label>
-            <input required pattern="[0-9.]+" id="second" type="text" name="sop">
+            <input required pattern="[0-9.]+"title="only numbers are allowed" id="second" type="text" name="op2">
         </div>
         <div style="padding: 20px">
-            <button type="submit">Submit</button>
+            <button type="submit">SUBMIT</button>
         </div>
     </form>
 </body>
