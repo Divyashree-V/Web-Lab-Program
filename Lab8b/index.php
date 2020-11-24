@@ -5,8 +5,8 @@
 <body>
 <?php
     $arr1=Array(
-                Array(1,3),
-                Array(4,5)
+                Array(1,2,3),
+                Array(4,5,6)
     );
     $arr2=Array(
         Array(2,6,7),
