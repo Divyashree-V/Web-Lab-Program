@@ -2,23 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Program for Squares and Cubes</title>
+    <style type="text/css">
+        table,h1 {text-align: center}
+    </style>
 </head>
 <body>
-<script>
-    // alert("hello");
-
-    var num= prompt("Enter an number");
-    var square = 0;
-    var cube = 0;
-    var myTable = "<h1 style='text-align: center'>Prog to find squares and cubes</h1>";
-    myTable += "<table border='1' align='center'><tr><th>Number</th><th>Res</th></tr>";
-    for (var i = 1; i <= 10; i++) {
-        myTable += "<tr><td>"+num+" * "+i+"</td><td>" + num*i + "</td></tr>";
+<h1>Program to find Square and Cube</h1>
+<script type="text/javascript">
+    var mytable="<table border='1' align='center'> <tr> <th>Number</th><th>Square</th> <th>Cube</th> </tr>";
+    var square= 0,cube=0;
+    for(var i=0;i<=10;i++)
+    {
+        square=i*i;
+        cube=i*i*i;
+        mytable+="<tr><td>"+i+"</td><td>"+square+"</td><td>"+cube+"</td></tr>"
     }
-    myTable += "</table>";
-    document.write(myTable);
-
+    mytable+="</table>";
+    document.write(mytable);
 </script>
 </body>
 </html>

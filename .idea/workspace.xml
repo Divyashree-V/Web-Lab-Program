@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b32b5af-79df-4d5f-b089-9d78b9b65ab2" name="Default Changelist" comment="pgm 1 index file addition sqe/sqrt">
+    <list default="true" id="9b32b5af-79df-4d5f-b089-9d78b9b65ab2" name="Default Changelist" comment="MUL Number (2*1)=Res(2)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +98,7 @@
       <workItem from="1606206793878" duration="5316000" />
       <workItem from="1606273527897" duration="714000" />
       <workItem from="1606811890595" duration="4777000" />
-      <workItem from="1608955577272" duration="2186000" />
+      <workItem from="1608955577272" duration="2728000" />
     </task>
     <task id="LOCAL-00001" summary="initial Login form">
       <created>1602489343130</created>
@@ -338,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608955806158</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="MUL Number (2*1)=Res(2)">
+      <created>1608959451581</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1608959451597</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,7 +364,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Arm Strong Number or Not" />
     <MESSAGE value="Complete Program 4 to find vowel/Reverse" />
     <MESSAGE value="in the php file html pgm" />
     <MESSAGE value="php Simple addition pgm" />
@@ -382,7 +388,8 @@
     <MESSAGE value="Program8b addition two matrix" />
     <MESSAGE value="pgm 9 python file&#10;(cmd-c:/xampp/...../python states.py)" />
     <MESSAGE value="pgm 1 index file addition sqe/sqrt" />
-    <option name="LAST_COMMIT_MESSAGE" value="pgm 1 index file addition sqe/sqrt" />
+    <MESSAGE value="MUL Number (2*1)=Res(2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="MUL Number (2*1)=Res(2)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="274" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605607165623">
