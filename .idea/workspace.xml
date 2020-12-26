@@ -19,11 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b32b5af-79df-4d5f-b089-9d78b9b65ab2" name="Default Changelist" comment="Program8b addition two matrix">
-      <change afterPath="$PROJECT_DIR$/Lab9/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab9/states.py" afterDir="false" />
+    <list default="true" id="9b32b5af-79df-4d5f-b089-9d78b9b65ab2" name="Default Changelist" comment="pgm 8 index file">
+      <change afterPath="$PROJECT_DIR$/DBConnection/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBConnection/sql.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/connectionajax/get/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/connectionajax/get/sql.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab8b/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Lab8b/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +64,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Web-Development-Project" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -73,6 +74,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Web-Lab-Program\connectionajax\get" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -92,7 +98,9 @@
       <workItem from="1605585698628" duration="1210000" />
       <workItem from="1605597554714" duration="513000" />
       <workItem from="1605598878369" duration="8194000" />
-      <workItem from="1606206793878" duration="4496000" />
+      <workItem from="1606206793878" duration="5316000" />
+      <workItem from="1606273527897" duration="714000" />
+      <workItem from="1606811890595" duration="4777000" />
     </task>
     <task id="LOCAL-00001" summary="initial Login form">
       <created>1602489343130</created>
@@ -318,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605609718765</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="pgm 9 python file&#10;(cmd-c:/xampp/...../python states.py)">
+      <created>1606212126642</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1606212126642</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,7 +352,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Right Most Vowel" />
     <MESSAGE value="find Reverse number" />
     <MESSAGE value="Arm Strong Number or Not" />
     <MESSAGE value="Complete Program 4 to find vowel/Reverse" />
@@ -362,28 +376,33 @@
     <MESSAGE value="Progm8.b complete Matrix and Transpose" />
     <MESSAGE value="Program8b addition" />
     <MESSAGE value="Program8b addition two matrix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Program8b addition two matrix" />
+    <MESSAGE value="pgm 9 python file&#10;(cmd-c:/xampp/...../python states.py)" />
+    <option name="LAST_COMMIT_MESSAGE" value="pgm 9 python file&#10;(cmd-c:/xampp/...../python states.py)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="274" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605607165623">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="274" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1605607165623" />
-    <state x="697" y="151" key="FileChooserDialogImpl" timestamp="1605609135847">
+    <state x="697" y="151" key="FileChooserDialogImpl" timestamp="1606837980939">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="697" y="151" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605609135847" />
-    <state x="865" y="320" key="NewPhpFileDialog" timestamp="1606209010291">
+    <state x="697" y="151" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606837980939" />
+    <state x="865" y="320" key="NewPhpFileDialog" timestamp="1606816140357">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="865" y="320" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1606209010291" />
+    <state x="865" y="320" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1606816140357" />
     <state x="184" y="9" key="SettingsEditor" timestamp="1602488036717">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1602488036717" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1605609719663">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1606212203660">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605609719663" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1606212203660" />
+    <state x="527" y="185" key="search.everywhere.popup" timestamp="1606274976520">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="527" y="185" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1606274976520" />
   </component>
 </project>
