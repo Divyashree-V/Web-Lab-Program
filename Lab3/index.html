@@ -2,48 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Program 3</title>
-    <style>
-        body{
-            text-align: center;
-        }
-    </style>
-    <script>
-        var fs=5;
-        function textAnimate() {
-            document.getElementById('text').innerText="";
-            var timer=setInterval(animate, 100);
+    <title>Prog for Text Animation</title>
+    <script type="text/javascript">
+        function animate()
+        {
+            var fontsize=5;
             var state="growing";
-            //document.getElementById('text').style.position="fixed";
-            function animate() {
-                    if(state=="growing")
-                    {
-                        fs += 5;
-                        //document.getElementById('text').style.fontSize = fs + 'pt';
-                        document.getElementById('text').style.color="red";
-                        document.getElementById('text').innerText="TEXT GROWING";
-                        //document.getElementById('text').style.position="fixed";
-                        document.getElementById('text').style.top=fs+"vh";
-                    }
-                    if(state=="shrinking")
-                    {
-                        fs -= 5;
-                        //document.getElementById('text').style.fontSize = fs + 'pt';
-                        document.getElementById('text').style.color="blue";
-                        document.getElementById('text').innerText="TEXT SHRINKING";
-                        //document.getElementById('text').style.position="fixed";
-                        document.getElementById('text').style.top=fs+"vh";
-                    }
-                    if(fs==100)
-                        state="shrinking";
-                    if(fs==5)
-                        clearInterval(timer);
+            var timer=setInterval(textanimate,100);
+            function textanimate()
+            {
+                if(state=="growing")
+                {
+                    fontsize++;
+                    document.getElementById('text').innerHTML="TEXT GROWING";
+                    document.getElementById('text').style.color="red";
+                    document.getElementById('text').style.fontSize=fontsize+"pt";
                 }
+                if(state=="shrinking")
+                {
+                    fontsize--;
+                    document.getElementById('text').innerHTML="TEXT SHRINKING";
+                    document.getElementById('text').style.color="blue";
+                    document.getElementById('text').style.fontSize=fontsize+"pt";
+                }
+                if(fontsize==50)
+                {
+                    state="shrinking"
+                }
+                if(fontsize==5)
+                {
+                    clearInterval(timer);
+                }
+            }
         }
     </script>
 </head>
-<body onload="textAnimate()">
-    <h1> Program to Increase / Decrease font size</h1>
-    <h2  style="position: fixed" id="text">Text Growing</h2>
+<body onload="animate()">
+<h1 style="text-align: center">
+    Program for Increasing / Decreasing size of a text
+</h1>
+<p style="text-align: center;" id="text"></p>
 </body>
 </html>
