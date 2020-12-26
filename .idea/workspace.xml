@@ -19,12 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b32b5af-79df-4d5f-b089-9d78b9b65ab2" name="Default Changelist" comment="pgm 8 index file">
-      <change afterPath="$PROJECT_DIR$/DBConnection/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DBConnection/sql.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connectionajax/get/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connectionajax/get/sql.php" afterDir="false" />
+    <list default="true" id="9b32b5af-79df-4d5f-b089-9d78b9b65ab2" name="Default Changelist" comment="pgm 1 index file addition sqe/sqrt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +50,7 @@
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1ilZZZhYYYzMKi5QGN4QcjZo7Y2" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -64,7 +61,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Web-Development-Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -101,6 +98,7 @@
       <workItem from="1606206793878" duration="5316000" />
       <workItem from="1606273527897" duration="714000" />
       <workItem from="1606811890595" duration="4777000" />
+      <workItem from="1608955577272" duration="2186000" />
     </task>
     <task id="LOCAL-00001" summary="initial Login form">
       <created>1602489343130</created>
@@ -333,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606212126642</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="pgm 1 index file addition sqe/sqr">
+      <created>1608955806158</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1608955806158</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,7 +357,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="find Reverse number" />
     <MESSAGE value="Arm Strong Number or Not" />
     <MESSAGE value="Complete Program 4 to find vowel/Reverse" />
     <MESSAGE value="in the php file html pgm" />
@@ -377,7 +381,8 @@
     <MESSAGE value="Program8b addition" />
     <MESSAGE value="Program8b addition two matrix" />
     <MESSAGE value="pgm 9 python file&#10;(cmd-c:/xampp/...../python states.py)" />
-    <option name="LAST_COMMIT_MESSAGE" value="pgm 9 python file&#10;(cmd-c:/xampp/...../python states.py)" />
+    <MESSAGE value="pgm 1 index file addition sqe/sqrt" />
+    <option name="LAST_COMMIT_MESSAGE" value="pgm 1 index file addition sqe/sqrt" />
   </component>
   <component name="WindowStateProjectService">
     <state x="274" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605607165623">
