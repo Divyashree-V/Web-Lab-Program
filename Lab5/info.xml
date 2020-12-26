@@ -15,29 +15,28 @@
         ]>
 
 <student_info>
-    <h1>Student Information</h1>
+    <h1>STUDENT INFORMATION</h1>
+    <h2>STUDENT-1:</h2>
+    <label>USN : <USN>4SO17CS001</USN></label>
+    <label>Name : <name>ABHI</name></label>
+    <label>College : <coll>SJEC</coll></label>
+    <label>Branch : <branch>CSE</branch></label>
+    <label>Year : <year>2018</year></label>
+    <label>Email : <email>abhi@gmail.com</email></label>
 
-    <h2> Student 1 Information</h2>
-        <label>USN : <USN>403</USN></label>
-        <label>Name : <name>Divya</name></label>
-        <label>College : <coll>SJEC</coll></label>
-        <label>Branch : <branch>CSE</branch></label>
-        <label>Year : <year>2021</year></label>
-        <label>Email : <email>divya@gmail.com</email></label>
+    <h2>STUDENT-2:</h2>
+    <label>USN : <USN>4SO18EC002</USN></label>
+    <label>Name : <name>SNEHA</name></label>
+    <label>College : <coll>SJEC</coll></label>
+    <label>Branch : <branch>EC</branch></label>
+    <label>Year : <year>2019</year></label>
+    <label>Email : <email>sneha@gmail.com</email></label>
 
-    <h2> Student 2 Information</h2>
-        <label>USN : <USN>123</USN></label>
-        <label>Name : <name>Kavana</name></label>
-        <label>College : <coll>SJEC</coll></label>
-        <label>Branch : <branch>ECE</branch></label>
-        <label>Year : <year>2020</year></label>
-        <label>Email : <email>xyz@gmail.com</email></label>
-
-    <h2> Student 3 Information</h2>
-        <label>USN : <USN>333</USN></label>
-        <label>Name : <name>shashi</name></label>
+    <h2>STUDENT-3:</h2>
+        <label>USN : <USN>4SO19ME003</USN></label>
+        <label>Name : <name>SMITH</name></label>
         <label>College : <coll>SJEC</coll></label>
         <label>Branch : <branch>MECH</branch></label>
-        <label>Year : <year>2018</year></label>
-        <label>Email : <email>sd@gmail.com</email></label>
+        <label>Year : <year>2020</year></label>
+        <label>Email : <email>smith@gmail.com</email></label>
 </student_info>
